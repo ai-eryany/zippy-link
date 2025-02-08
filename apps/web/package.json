@@ -1,0 +1,22 @@
+{
+  "name": "@url-shortener/web",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src",
+    "format": "prettier src --write",
+    "astro": "astro",
+    "count": "git ls-files | xargs cat | wc -l",
+    "clean": "rm -rf dist",
+    "reset": "rm -rf node_modules && rm -rf package-lock.json && rm -rf dist"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^7.0.4",
+    "astro": "^5.2.5",
+    "svelte": "^5.19.9"
+  }
+}
